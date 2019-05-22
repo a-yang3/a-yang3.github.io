@@ -217,6 +217,14 @@ a:hover{
   opacity: 1; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+}
 
 
  
