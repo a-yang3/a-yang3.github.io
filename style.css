@@ -6,7 +6,7 @@ body {
     background-color:  #e6dbc9;
     color: black;
     font-family: 'Garamond';, sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 300;
      overflow-x: hidden;
 
@@ -17,7 +17,7 @@ body {
 h1 {
     color: black;
     font-family: 'IBM Plex Mono', serif;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
         background-color: transparent;
 
@@ -26,14 +26,15 @@ h1 {
 h2 {
     color: black;
     font-family: 'IBM Plex Mono', serif;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
 }
+
 
 h3 {
     color: black;
     font-family: 'Garamond', serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -208,7 +209,7 @@ a:hover{
 }
 
 .zoom {
-  transition: transform .2s; /* Animation */
+  transition: transform .25s; /* Animation */
   margin: 1em auto;
   padding: 5px;
 
@@ -216,20 +217,13 @@ a:hover{
 
 .zoom:hover {
   transform: scale(1.05);
-  opacity: 1; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .zoom a:hover {
   opacity: 1;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-  max-height: 370px;
-  max-width: 500px;
 
-}
 
 }
 
