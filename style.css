@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: transparent;
+    background-color:  #e6dbc9;
     color: black;
     font-family: 'Garamond';, sans-serif;
     font-size: 19px;
@@ -30,6 +30,13 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    color: black;
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
 h6 {
     color: #0003FF;
     font-family: 'Garamond', serif;
@@ -42,12 +49,12 @@ a {
   color: #0003FF;
    opacity: 1;
   transition: 0.2s;
+  text-decoration: underline;
 }
 
 a:hover{
    color: #0003FF;
   opacity:0.5;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -197,5 +204,20 @@ a:hover{
       background-color: transparent;
 
 }
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 1em auto;
+  padding: 5px;
+
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+ 
 
 
