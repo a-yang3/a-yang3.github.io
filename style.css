@@ -58,6 +58,8 @@ a:hover{
   cursor: pointer;
 }
 
+
+
 .fade {
   opacity: 0.3;
   transition: opacity .25s ease-in-out;
@@ -217,11 +219,16 @@ a:hover{
   opacity: 1; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom a:hover {
+  opacity: 1;
+}
+
 .responsive {
   width: 100%;
   height: auto;
+  max-height: 400px;
   max-width: 500px;
-  max-height: 300px;
+
 }
 
 }
