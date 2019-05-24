@@ -233,8 +233,52 @@ a:hover{
 
 
 
+.collapsible {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding-top: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+ 
+
+
 }
 
+.collapsible:hover {
+  opacity: 0.3;
+}
+
+.active, .collapsible:hover {
+  background-color: transparent;
+}
+
+.collapsible:after {
+  content: '👇';
+  color: black;
+  font-weight: bold;
+  float: left;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.active:after {
+  content: "☝️";
+  opacity: 1;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: transparent;
+}
+
+button a:hover{
+  opacity: 0.3;
+}
 
  
 
