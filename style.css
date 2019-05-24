@@ -40,7 +40,7 @@ h3 {
 }
 
 h6 {
-    color: #0003FF;
+    color: black;
     font-family: 'Garamond', serif;
     font-size: 48px;
     font-weight: 600;
@@ -50,7 +50,7 @@ h5 {
     color: black;
     font-family: 'Roboto Mono', serif;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 
