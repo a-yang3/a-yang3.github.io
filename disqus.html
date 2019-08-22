@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alyssa Yang 杨</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <link rel="icon" href="assets/red.png">
+ <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|Sawarabi+Mincho&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div class="content">
+
+<div id="navbar">
+
+ <div class="navbar">
+  <a class="active" href="index.html">Work</a> 
+  <a href="about.html">About</a> 
+  <a href="assets/resume/resume.pdf" target="blank">Résumé</a> 
+</div>
+  <hr></hr>
+</div>
+<br><br>
+<div id="sticky">
+
+<!-- fade in one -->
+<!-- begin sticky scrolling -->
+
+
+ <div class ="box fade-in one">
+<div style="padding-top: 1em;"></div><h4>Disqus / brief</h4>
+
+<!-- project brief -->
+<h1>
+Improving moderation tools for publishers to tackle spam comments in online communities.
+
+</h1><br><br></div>
+
+<!-- fade in two -->
+
+<div class ="box fade-in two">
+
+<!-- col 1, row 1 -->
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <img src="assets/thumbnails/disqus.png" style="width:100%;">
+</div></div>
+
+<!-- col 2, row 1 -->
+<div class="column" style ="padding-top: 1em;"><!-- <div style="padding-top: 8em;"></div> -->
+<div class="container">
+  <div class="text-block">
+    <h3>Role:</h3> <p>Product Design Intern</p>
+    <h3>Time:</h3> <p>June 2018 - August 2018</p>
+    <h3>Responsibilities:</h3> <p>User research, competitive analysis, ideation, high-fidelity iteration, prototyping, user testing, design QA</p>
+    <h3>Deliverables:</h3> <p>Hifi Sketch mocks, Invision prototype, Principle interaction mocks, marketing designs</p>
+  </div>
+</div></a>
+</div></div>
+
+<!-- end project brief -->
+
+<!-- start divider + title -->
+</div>
+
+<!--fade 3 -->
+<div class ="box fade-in three">
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Context</h4> 
+
+<!-- end divider + title -->
+
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+<span class="link"><a href="https://disqus.com/">Disqus</a></span> is a worldwide comment hosting service for websites. <br>Its features include social network integrations, admin moderation options, and online community building functions.
+</h1>
+
+<!-- end focus text -->
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+    <p>During my time at Disqus, I worked closely with product managers and engineers as a product design intern in summer 2018.</p>
+    <p> I ramped up the summer with a couple small projects, like shipping a comment edit UI fix and designing marketing materials, but focused most of my efforts for the remaining 6 weeks on moderation tools for publishers and moderators.</p>
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+
+<!-- start sidebyside img -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <img src="assets/disqus/dmarketing.png" style="width:100%;">
+      <h6>Side project: worked with the marketing intern for roll out graphics, now live on the Disqus landing page. </h6>
+
+</div></div>
+
+<div class="column"><!-- <div style="padding-top: 8em;"></div> -->
+<div class="container">
+  <img src="assets/disqus/gif.png" style="width:100%;">
+      <h6>Side project: <span class="link"><a href="https://projects.invisionapp.com/share/9HNI5QVXJM8#/screens/314220596_1-0_Embed_-_Inactive">Prototyped</a></span> and made design spec to support GIFs in comments using Tenor API.</h6>
+  
+</div>
+</div></div>
+
+
+<!-- end sidebyside img -->
+<!-- start full width image -->
+  <img src="assets/disqus/currentmod.gif" style="width:100%; padding-top: 4em">
+  <h6>Current experience: toggling the existing moderation rules with limited dropdown options.</h6>
+<!-- end full width image -->
+<!-- start full width image -->
+  <img src="assets/disqus/finalmod.gif" style="width:100%; padding-top: 4em">
+  <h6>Proposed experience: allowing for advanced moderation rule customization.</h6>
+<!-- end full width image -->
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Understanding the problem</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+Publishers identify moderation burden as one of their biggest frustrations when hosting their content on the Disqus network.
+</h1>
+
+<!-- end focus text -->
+
+<!-- start image + text -->
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <img src="assets/disqus/oldmodrules.png" style="width:100%;">
+      <h6>A snapshot of what the current version of Moderation Rules looks like. It currently works like an interactive "if, then" statement where users select filters, then assign them to automatic moderation options. The drop down options are limited, and the UI is not tailored to fit the specific moderation needs of larger publishers. </h6>
+
+</div></div>
+
+<div class="column" style ="padding-top: 2em;"><!-- <div style="padding-top: 8em;"></div> -->
+<div class="container">
+  <div class="text-block"> 
+    <p>
+Disqus users include publishers who see thousands of comments per day. Currently, publishers either use third party moderation services or employ dedicated moderators volunteer their time sifting through individual comments. </p>
+
+<p>Improving moderation tools helps add value to the publisher experience and improve publisher retention on our software as a service (SaaS) plans. </p>
+
+<p>Additionally, there were troves of existing research dedicated to understanding toxicity and moderation across Disqus sites, along with feedback from the first release of Moderation Rules, a set of tools that help users automate moderation.</p>
+  </div>
+</div>
+</div></div>
+
+<!-- end image + text -->
+<!-- start left text -->
+
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+    
+
+<p>Navigating moderation for online communities is a complex process, often complicated by political stances and dedication to community values, which is why I focused a large chunk of my time carefully going through existing research.</p>
+
+<p>
+
+My goals for this portion of the project were to understand moderation use cases and behavior, and identify the specific needs for our target users (which would later be defined post-research). </p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+</div></div>
+
+<!-- end left text -->
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Research approach</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+By leveraging the existing research and usability feedback, I was able to empathize with publisher needs and moderation behavior.
+</h1>
+
+<!-- end focus text -->
+
+<!-- start sidebyside text -->
+
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+   <h3>Current UX</h3><p>
+I annotated the current flow for creating moderation rules, which helped me understand what is/isn’t working within the interface.</p>
+
+   <h3>Team constraints</h3><p>
+  
+I met with some team members who were a part of the first iteration team to understand the product thinking and implementation constraints that were considered internally.</p>
+
+ <h3>Competitive analysis</h3><p>
+  
+I considered platforms that use advanced filter or search interfaces to understand UI across different industries. I also looked at platforms that host discussions (Wordpress, Youtube, Reddit) to understand moderation behavior among online communities.</p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+<div class="container">
+  <div class="text-block"> 
+<h3>Qualitative data</h3><p>
+  
+I read through the existing past research, which included well-documented project outlines, publisher retro feedback, insights from usability tests, and customer support.</p>
+
+      <h3>Quantitative data</h3><p>
+I used several dashboards in our internal data analysis tool to help me visualize global trends across the Disqus network (and put my rusty SQL knowledge to use).</p>
+
+  </div>
+</div>
+</div></div>
+
+<!-- end sidebyside text --> 
+
+<!-- start left text -->
+
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+<h3>Key Takeaways</h3>
+<p>1. Spam commenters rapidly create new accounts to continue posting spam/harassment in order to avoid ban consequence, and there are no filters that factor account age.</p>
+
+<p>2. Issuing timeouts can only be done manually, and on a case-by-case basis. Publishers worry about non-spam comments ending up in a long pending queue for moderation.</p>
+
+<p>3. The current UI does not allow for complex, context-aware rules and that is an impediment for trust in auto-moderation.</p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+</div></div>
+
+<!-- end left text -->
+
+<!-- start left text -->
+
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+<h3>Definition of Target Users</h3>
+<p>Much of the iteration feedback and existing research came from users who were either part of the publisher council or medium to heavy moderation users, so the ideation for this project was narrowed down to suit their needs. More specifically: </p>
+
+
+<p>1. Members of the publisher council<br>
+Active feedback, familiar with Moderation Rules.</p>
+
+<p>2. SaaS plan subscribers<br>
+Advanced moderation tools are most available for Pro and Business plan publishers</p>
+
+<p>3. Publishers with at least 30 moderation actions weekly<br>
+Users who frequently experience moderation burden
+</p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+</div></div>
+
+<!-- end left text -->
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Opportunity Ideation</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+Because we were limited by our team size and other technical constraints, I focused my efforts on redesigning just the Moderation Rules interface, although there are many other touchpoints moderators and publishers interact with in administrator features. <br><br>With the contraints in mind, I moved forward with use cases that typically require context-specific moderation.
+</h1>
+
+<!-- end focus text -->
+
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+    <p>
+  Considering the amount of research that had already been invested in the project, it made the most sense to build off the feedback we had earlier and focus primarily on the rule creation interface. Other opportunities in the problem space weren’t supported by enough research to pursue (i.e. can’t confirm that onboarding is ineffective, color coding actions might be misleading, etc).</p>
+
+     <h3>
+  Use cases for publisher needs I tried to address in the first pass:</h3>
+  <p>1. Users who rapidly create new accounts to continue posting spam/harassment (take account age into consideration)</p>
+
+  <p>2. Users who end up in long list of pending comments.
+</p>
+
+<p>3. Users whose comments do not warrant permanent banning, but pose problems for repeat moderation actions.
+</p>
+
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+<!-- start right image -->
+<div style="padding-top: 4em;"></div>
+
+<div class="row"> 
+  <div class="column">
+</div>
+
+<!-- right image - image box -->
+<div class="column" style ="padding-top: 2em;">
+
+  <div class="container">
+  <img src="assets/disqus/flow1.png" style="width:100%;">
+    <h6>Sketching a quick user flow of how someone might draft a new moderation rule, starting with entry to the interface and selecting conditions, types and actions.</h6>
+  </div>
+</div></a>
+</div>
+</div></div>
+
+<!-- end right image -->
+
+<!-- start right image -->
+<div style="padding-top: 4em;"></div>
+
+<div class="row"> 
+  <div class="column">
+</div>
+
+<!-- right image - image box -->
+<div class="column" style ="padding-top: 2em;">
+
+  <div class="container">
+  <img src="assets/disqus/flow2.jpg" style="width:100%;">
+    <h6>Sketching a slightly more detailed user flow to rethink rule hierarchy.</h6>
+  </div>
+</div></a>
+</div>
+
+<!-- end right image -->
+
+<!-- start left text -->
+
+<div style="padding-top: 6em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+<p>
+For the interface, I explored different ways of adding advanced rules and logic to suit the proposed rule flows. I wanted to keep the interface familiar, for the front-end engineers and publishers’ sake, with access to advanced settings.</p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+</div></div>
+
+<!-- end left text -->
+
+
+<!-- start right image -->
+<div style="padding-top: 4em;"></div>
+
+<div class="row"> 
+<div class="column" style ="padding-top: 2em;">
+
+  <div class="container">
+  <img src="assets/disqus/lofi1.jpg" style="width:100%;">
+    <h6>Ideating on different ways users could write rules based on their needs from research and competitive analysis.</h6>
+  </div></div>
+
+<!-- right image - image box -->
+  <div class="column">
+</div>
+
+</div>
+
+<!-- end right image -->
+
+<!-- start right image -->
+<div style="padding-top: 4em;"></div>
+
+<div class="row"> 
+<div class="column" style ="padding-top: 2em;">
+
+  <div class="container">
+  <img src="assets/disqus/lofi2.jpg" style="width:100%;">
+    <h6>Ideating on ways rule writing could be grouped using additional rows or grouped by action.</h6>
+  </div></div>
+
+<!-- right image - image box -->
+  <div class="column">
+</div>
+
+</div>
+
+<!-- end right image -->
+
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Mid-fidelity iteration</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+My PM and I met to review the rule flows and interface designs. Here were some of the considerations we made to narrow down options: 
+</h1>
+
+<!-- end focus text -->
+
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+  <h3>1. Allow for more complex rules by assigning actions to multiple filters and conditions. </h3><p>
+This meant expanding the drop down selections and thinking of ways to present options without restraining the user. We also had to balance this with providing users with the right set up options based on data analysis, because it would be inefficient to develop filter options that won't get used.</p>
+
+   <h3>2. Maintain the consistency of the current “If … then” structure. </h3><p>
+  In past usability sessions, publishers often described their use cases in natural language that fits the "If … then" structure; additionally, it was easier for the backend to implement with this format.</p>
+
+ <h3>3. Not all publishers were familiar with advanced logic.
+</h3><p>
+  
+The interface should be as flexible as possible without taking away from basic rule creation. Even though the project scope was narrowed down to more technical use cases, it should be usable on a spectrum of abilities.
+</p>
+
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+<!-- start full width image -->
+  <img src="assets/disqus/midfi1.png" style="width:100%; padding-top: 4em">
+  <h6>Mocking wireframes to help me visualize different states of the rule creation interface, and narrow down options to move to higher fidelity designs.
+</h6>
+<!-- end full width image -->
+<!-- start full width image -->
+  <img src="assets/disqus/midfi2.png" style="width:100%; padding-top: 4em">
+  <h6>Refined design options based on the considerations and feedback above, with the style guide applied.</h6>
+<!-- end full width image -->
+<!-- start full width image -->
+  <img src="assets/disqus/flow3.png" style="width:100%; padding-top: 4em">
+  <h6>Mid fidelity flow for how a user might use proposed filters to circumvent new account spam.</h6>
+<!-- end full width image -->
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Feature refinement
+</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+I referred back to research findings and prioritized insights that were more representative of this iteration's users in order to keep the high-fidelity design goals in check.
+
+</h1>
+
+<!-- end focus text -->
+
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+  <h3>1. Advanced logic </h3><p>
+Our goal was to make rows easy to add and remove in order to allow access to more advanced rules without taking away from writing basic rules. We learned from research that too many options might be overwhelming and lead to moderator choice paralysis.</p>
+
+   <h3>2. Additional drop down options 
+</h3><p>
+  We have previous analysis to infer which options will be most used by publishers. In using validated research, it helps us predict adoptability. For example, 7 days is a popular timeout duration. </p>
+
+ <h3>3. Conditional rules
+
+</h3><p>
+We needed to ommunicate active/inactive drop down options, so users follow can write rules that are actually feasible. This also helps the backend handle conditional drop downs such that new rules have no logical interference.
+</p>
+
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+
+<!-- start full width image -->
+  <img src="assets/disqus/finalmocks.png" style="width:100%; padding-top: 4em">
+  <h6>Sample mocks of the flow proposed for user testing, after having iterated and narrowed down options from ideation.
+</h6>
+<!-- end full width image -->
+
+
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>User testing
+</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+In order to assess how well our design decisions were addressing our product goals, I created a high-fidelity prototype and designed usability sessions.
+
+</h1>
+
+<!-- end focus text -->
+
+
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+   <p> We were able to receive email feedback from some publishers on timeouts and new accounts, but were unable to get ahold of target publishers for user testing during my time at Disqus.</p>
+
+   <p>
+
+Instead, I drafted <span class="link"><a href="https://docs.google.com/document/d/1CXcMtnfDwv3jlfsITeAVY0gG7KrTTWCT8yC_ny78CmM/edit?usp=sharing" target ="blank">a research guide</a></span> and conducted two usability sessions via an <span class ="link"><a href="https://projects.invisionapp.com/share/8FNLCTBBDR2#/screens" target="blank">Invision prototype</a></span> with engineers at Disqus to get a better understanding of:</p>
+
+<p>1. What is and isn’t working with the interface</p>
+
+<p>2. Opportunities for education about advanced rule creation</p>
+
+<p>3. Reactions to new design features</p>
+
+<p>4. Technical constraints from front-end and back-end engineers</p>
+
+
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+<!-- start full width image -->
+  <img src="assets/disqus/addfilter.gif" style="width:100%; padding-top: 4em">
+  <h6>Selecting nested conditions ("flagged at least --> 1x") that appear on certain filters for more customizability (Invision).
+</h6>
+<!-- end full width image -->
+
+<!-- start full width image -->
+  <img src="assets/disqus/addrow.gif" style="width:100%; padding-top: 4em">
+  <h6>Adding more conditions to an existing rule using "and" logic for further specificity (Invision).
+
+</h6>
+<!-- end full width image -->
+
+<div style="padding-top: 4em;"></div>
+
+
+<h1>Usability findings</h1>
+<!-- start sidebyside text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+    <h3>The good</h3>
+    <p>Rule creation was straightforward (testers ranked 3/10, with 1 being very easy and 10 being very difficult).</p><p> The “if, then” structure is intuitive and reads easily from left to right.</p><p>Options for each drop down selection presented were clear and predictable. </p>
+
+  </div>
+
+</div></div>
+
+<div class="column">
+<div class="container">
+  <div class="text-block"> 
+    <h3>Not so good</h3><p>There needs to be even more customizability and intentionality with the range of available options. </p><p>Filters with additional conditions need to be communicated better.</p> The “x” button was confusing because its greyed-out color made it seem unclickable — call-to-action buttons sitewide are typically blue. <p>It was also unclear how it related to the “Add Rule” button.</p>
+
+
+  </div>
+</div>
+</div></div>
+
+<!-- end sidebyside text -->
+
+<!-- start right text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column"></div>
+
+  <div class="column">
+
+    <div class="container">
+  <div class="text-block"> 
+  <h3>Recommendations </h3><p>
+1. There needs to be stronger visual communication for adding and removing conditions in each rule row.</p>
+
+  <p>
+  2. Adding “...” after filters that take in additional conditions might help users expect an additional drop down option. 
+</p>
+
+ <p>
+3. More research should be conducted around what options publishers want and need for specific filters.
+</p>
+
+
+  </div>
+
+</div></div></div>
+
+
+<!-- end right text -->
+
+
+<!-- start full width image -->
+  <img src="assets/disqus/final1.png" style="width:100%; padding-top: 4em">
+  <h6>Content strategy "..." used to communicate additional filters, and consistent buttons based on style guides
+
+</h6>
+<!-- end full width image -->
+<!-- start full width image -->
+  <img src="assets/disqus/final2.png" style="width:100%; padding-top: 4em">
+  <h6>Adding flexibility for users to customize how many times a comment is flagged before action.
+
+</h6>
+<!-- end full width image -->
+
+<!-- start divider + title -->
+
+<br><br>
+<hr></hr>
+<div style="padding-top: 2em;"></div><h4>Reflections
+</h4>
+
+<!-- end divider + title -->
+<!-- start focus text -->
+
+<h1 style="width: 50%;">
+There were clear improvements that needed to be made after I conducted testing, but unfortunately, we were nearing the end of my internship. I documented my potential next steps for any designer who might tackle moderation rules in the future.
+</h1>
+
+<!-- end focus text -->
+
+<!-- start sidebyside text -->
+
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+
+<div class="column"></div>
+
+
+  <div class="column">
+    <div class="container">
+  <div class="text-block"> 
+    <h3>Challenges that still need to be addressed:
+</h3>
+    <p>1. Determining best options for timeout duration how publishers use the “timeout” feature to temporarily ban users.<br><br>
+Analysis tells us that 7 days is the most popular timeout length, but need to consider publishers who desire further customization with length. </p>
+
+<p> 2. Determining best options for addressing ban dodgers.<br><br>
+Account behavior related to new account creation and timeouts is complicated by a limitation in our data tracking set up — unclear how to measure success if we are unable to track this specific event.
+<p>3. Tradeoff between diving deep with customizability vs. creating a basic tool for all publishers. </p>
+
+
+
+  </div>
+</div>
+</div></div>
+
+<!-- end sidebyside text -->
+
+
+<!-- start image + text -->
+<div style="padding-top: 4em;"></div>
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+  <img src="assets/disqus/interns.jpg" style="width:100%;">
+      <h6>My co-interns and I at the office, and Suki the friendly neighborhood Shiba in the bottom right corner!
+</h6>
+
+</div></div>
+
+<div class="column" style ="padding-top: 2em;"><!-- <div style="padding-top: 8em;"></div> -->
+<div class="container">
+  <div class="text-block"> 
+    <p>
+In the future, I will show work earlier, and more often, as well as seek more mentorship from the non-product team (i.e. analytics, marketing etc). If I were to do this project again, I would conduct more preliminary research with our target publishers to better validate our design decisions.</p>
+
+        <p>
+The team for this summer was small, and I had many unique opportunities as the only designer at Disqus during my time there. I got to help facilitate onsite interviews for full-time product designers, lead a research meeting to share my findings, sync with people across different teams and roles, and meet with my design mentors outside of work. I’m excited to see what products the team develops next!
+</p>
+
+  </div>
+</div>
+</div></div>
+
+<!-- end image + text -->
+
+
+<!-- start footer nav -->
+
+<div style="padding: 4em;"></div>
+<span class="link"><a href="#top"> ↑ Back to top </a></span> <br>
+<span class="link"><a href=""> → Next up: Honeybook wedding venue matching</a></span>
+
+<!-- end footer nav -->
+
+
+</div></div></div></div></div></div></div></div>
+
+<!-- js for sticky menu -->
+ 
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- footer -->
+
+</div>
+<div style="padding-top: 6em;"></div>
+<div class="footer">
+  <br>
+  Made by Alyssa Yang © 2019<br> as DOT yang AT berkeley DOT edu
+</div>
+
+
+</body>
+
+
+</html>
