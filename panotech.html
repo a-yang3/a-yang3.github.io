@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+<title>alyssa yang</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+<link href="css/bootstrap-grid.css" rel="stylesheet">
+<link href="js/bootstrap.js" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- fixed top navigation -->
+<div class="topnav">
+  <a href="index.html">alyssa yang</a>
+   <div class="topnav-right">
+   <a href="info.html">info</a>
+  </div>
+</div>
+<!-- end of fixed top navigation -->
+
+<div class="padding">
+</div>
+
+<!-- start content block -->
+<div class="content">
+<!-- start right image -->
+<div class="row">
+  <div class="col-sm-6">
+    <div style='width: 100%;'>
+      <h1>Panotech — Installation</h1>
+      <p>
+    Panotech is a smart monitor that captures a live stream feed of faces in a public space. A robotic surveillance system created with the goal of humanizing and critiquing the ever-present, growing reality of public surveillance, while bringing awareness and information about it to the public. </p>
+    <p>Panotech was originally created for ARTC166: Critical Practices. In Fall 2019, it won a Jacobs Hall showcase award, and recently won an Ignite Grant from Jacobs Hall to continue our work as a part of the 2020 Catalyst cohort.</p>
+
+    <p> Currently, it's featured in Worth Ryder Gallery as a part of <a href="https://art.berkeley.edu/event-calendar/robot" target=blank>99 Robots</a>, a student art exhibition that explores the concept of the robot in a time where our relationship with technology has heightened the artist's role as ethical interrogator.</p>
+    <p>In collaboration with Serena Chan, Cameron Chaney, Zeke Medley, and Noah Saso. Github repo <a href="https://github.com/ZekeMedley/PANOTECH">here</a> for software updates.</p>
+
+    <h3>We were curious about what it would mean to give a face and body to surveillance, a process that is otherwise intentionally subversive.
+</h3>
+  </div>
+
+ 
+</div>
+
+ <div class="col-sm-6">
+  <div class="prof"><br><br><br><br>
+  <img src="assets/panotech/demo_panotech.gif" alt="project index icon"></div>
+</div>
+  
+<!-- end right image -->
+
+<!-- start left image -->
+<div class="row">
+  <div class="col-sm-6"><br><br><br>
+  <img src="assets/panotech/showcase.gif" alt="project index icon">
+  <p><center>Panotech at Jacobs Hall Fall 2019 Showcase</center></p></div>
+  <div class="col-sm-6">
+    <div class="prof" style='width: 85%;'>
+      <h1>Original Concept</h1>
+      <p>
+    The name and concept for Panotech is inspired by the panopticon, a system of control and institution from the 18th century, designed to allow all prisoners of an institution to be observed by a single security guard, without inmates being able to tell whether they are being watched. Our design concept mimics this by moving in a 360 degree fashion, creating an ever-present surveillance system realized in the form of a smart technology monitor. </p>
+<p>
+In a public space, we are often unaware of the implication of hidden cameras secretly surveilling our every move; equally so, we don’t really think about how being in public, our faces/personal data are being tracked and kept. Amazon’s Ring doorbells, for example, are always filming whatever is happening outside the owners door and has partnerships with some 400 police departments so they can use the footage (<a href="https://www.google.com/search?q=washington+post+amazon+ring+police&rlz=1C5CHFA_enUS842US842&oq=washington+post+amazon+ring+police&aqs=chrome..69i57j33.3854j1j7&sourceid=chrome&ie=UTF-8">Washington Post, 2019</a>).</p>
+
+</div>
+  </div></div>
+<!-- end left image -->
+
+
+<div class="padding-sm">
+</div>
+
+<!-- start right callout -->
+<div class="row">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-9" style="text-align: right;">
+    <h3>Our first prototype was hacked together with a thrifted swivel chair, modified screwdriver, servo motor, one arduino, a webcam, and Serena's spare desktop monitor. </h3>
+  </div>
+</div>
+<!-- end right callout -->
+
+<div class="padding-sm">
+</div>
+
+<!-- start three -->
+<div class="row">
+  <div class="col-sm-4">
+    <img src="assets/panotech/diagram1.png">
+    <h1>Software</h1>
+    <p>Diagram credit @ Zeke Medley</p>
+    Zeke worked on the software, using openCV's face extraction scripts to detect faces from our attached webcam's live stream. To display information to the user, the machine runs an Electron application written in NodeJS, HTML, and CSS.
+    <p>It uses information about the appearance of the face and its location to interact with its environment, telling the servo motor to trigger the drill either forwards or in reverse. Consequently, the entire body and "face" of our monitor turns to search for more faces. 
+     </p>
+
+  </div>
+  <div class="col-sm-4">
+    <img src="assets/panotech/drill.png">
+    <h1>Mechanics</h1>
+     <p>Cameron worked on the mechanics, first CAD modeling the body frame of the monitor and how it would swivel in response to the Arduino-controlled drill motions. </p>
+     <p>Our original idea for this project was for it to have a very sleek and elegant design, almost like Eve from WallE. The monitor setup mimics the feeling of a person, with a monitor as a face and a spinning chair as a torso.</p>
+
+    <p>After several iterations, the first full prototype's body was built and assembled using wooden beams, laser cut base plates, and nails to mount.</p>
+  </div>
+
+  <div class="col-sm-4">
+    <div class='row'><br><br>
+      <img src="assets/panotech/logo.png">
+      <div class='col-sm-6'><br><br>
+    <img src="assets/panotech/inactive.png"></div><div class='col-sm-6'><br><br>
+    <img src="assets/panotech/active.png"></div></div>
+    <h1>UI Design</h1>
+    <p>Serena worked on branding and visual design, while I worked on the UI design and front-end coding.</p>
+
+    <p>The designs are inspired by smart security interfaces that are minimalist (like Ring tech), and the intention was to display a series of faces "collected" by our monitor. When a face is detected, it dynamically displays a red screen, warning the user of possible intruders that violate the space. However, as they're captured in a public setting, these faces are stored in the system, on display.</p><p> Much like widespread surveillance in our everyday lives, how our digital footprints are used and co-opted remains unclear.</p>
+  </div>
+</div>
+<!-- end three -->
+
+<div class="padding-sm">
+</div>
+
+<!-- start left callout -->
+<div class="row">
+  <div class="col-sm-8">
+    <h3>After the showcase, we received a grant from Jacobs Hall and were accepted into an exhibition. Our second fully functional prototype took on a new direction.</h3>
+  </div>
+</div>
+<!-- end left callout -->
+
+<div class="padding-sm">
+</div>
+
+<!-- start right callout -->
+<div class="row">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-9">
+    <img src="assets/panotech/hang.png">
+    <p><center>Panotech at 99 Robots.</center></p>
+  </div>
+</div></div>
+<!-- end right callout -->
+
+<div class="padding-sm">
+</div>
+
+<!-- start three -->
+<div class="row">
+  <div class="col-sm-4">
+    <img src="assets/panotech/diagram.png">
+    <h1>Software</h1>
+    <p>Diagram credit @ Zeke Medley</p>
+    <p>
+    Zeke and Noah revamped the software, and our newly updated code runs faster and smoother than before on a Pi 4. Currently, there is close to real time face detection and UI drawing.</p>
+
+    <p>For the installation, the program runs with the flip of a switch and displays generated static noise when no faces are seen, giving it an ominous presence in the room.
+     </p>
+
+
+  </div>
+  <div class="col-sm-4">
+    <img src="assets/panotech/drill.png">
+    <h1>Mechanics</h1>
+     <p>Cameron built a new mounting system that allows for the monitor to be hung from hooks on the gallery ceiling, giving the system a floating, body-like figure with wires dangling loosely behind it.</p>
+     <p>For the future, we're thinking of using a newly purchased monitor for better viewing angles, and adjusting to find the ideal height for a user to interact with the monitor. We're also bringing an improved motor system similar to our original concept.</p>
+  </div>
+
+  <div class="col-sm-4">
+    <div class='row'><br><br>
+    <div class='col-sm-6'><br><br>
+    <img src="assets/panotech/16.png"></div>
+    <div class='col-sm-6'><br><br>
+    <img src="assets/panotech/17.png"></div>
+    <br><br>
+    <h1>UI Design</h1>
+    <p>After getting feedback that our messaging was unclear form exhibition passerbys, I iterated on designs that mimic widely popularized Instagram filters that project 'fun' interactions onto users' faces (guessing ages, what Trader Joe's product you might be, etc).</p>
+    <p>I also iterated on ways to better engage the user, like consenting to their facial data being used through a 'blink/wink' interaction to critique the often cryptic language and dark design patterns involved with giving digital consent to personal data along with confusing terms and conditions. 
+  </div>
+</div>
+<!-- end three -->
+
+
+<div class="padding-sm">
+</div>
+
+
+<!-- start right callout -->
+<div class="row">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-9" style="text-align: right;">
+    <h3>Panotech remains a work in progress. We're excited for what's to come — check back soon for more!</h3>
+  </div>
+</div>
+<!-- end right callout -->
+
+
+<div class="padding-sm">
+</div>
+
+
+<!-- end of content block -->
+
+<div class="footer">
+ © alyssa yang 2020
+</div>
+
+</body>
+</html>
