@@ -7,27 +7,27 @@
 
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Libre Franklin', serif;
   background-color: #FFFDF4
   font-size: 20px;
   margin: 4em;
 }
 
 h1 {
-  font-size: 48px;
-  font-family: 'Crimson Text', serif;
+  font-size: 36px;
+    font-family: 'Trirong', serif;
 
 }
 
 h2 {
   font-size: 24px;
-  font-family: 'Crimson Text', serif;
+    font-family: 'Trirong', serif;
 
 }
 
 h3 {
-  font-size: 64px;
-  font-family: 'Crimson Text', serif;
+  font-size: 48px;
+    font-family: 'Trirong', serif;
 
 }
 
@@ -71,7 +71,8 @@ img {
 
 .index-title {
   padding-left: 1.5em;
-  font-size: 48px;
+  font-size: 42px;
+  font-family: 'Trirong', serif;
   background: transparent url(assets/arrow.svg) center left no-repeat;
 }
 
@@ -161,8 +162,8 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Crimson Text', serif;
-  font-weight: 700;
+  font-family: 'Trirong', serif;
+  font-weight: 500;
   font-size: 64px;
 
 }
